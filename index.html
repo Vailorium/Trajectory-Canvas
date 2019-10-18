@@ -13,7 +13,9 @@
 </head>
 <body>
     <canvas id="mainCanvas" height="2000" width="2000"></canvas>
-    <input type="range" min="50" max="200" value="50" oninput="changeHorzSpeed(this.value)">
+    <input type="range" id="horzSpeedSlider" min="50" max="200" value="50" oninput="changeHorzSpeed(this.value)">
     <p id="test">50</p>
+
+    <p id="clock">Seconds until ground: <span id="secondtoground">0</span>s</p>
 </body>
 </html>
